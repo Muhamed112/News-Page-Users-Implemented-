@@ -1,0 +1,131 @@
+* {
+   margin:0;
+   padding:0; 
+   list-style: none;
+   text-decoration: none;
+}
+
+body
+{
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: #101010;
+    position: fixed;
+}
+
+.inner-header {
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo-container {
+    height: 100%;
+    display: table;
+    float: left;  
+}
+
+.logo-container h1 {
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    
+     -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+}
+
+.logo-container h1 span {
+    font-weight: 800;
+}
+
+.nav {
+    float: right;
+    height: 100%;
+}
+
+.nav a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.nav a:last-child {
+    padding-right: 0;
+}
+
+.nav a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+
+.poruka {
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.poruka span {
+    font-family: 'Montserrat';
+    font-weight: 800;
+}
+
+.novosti {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 80px;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+}
+
+.novosti-wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.novosti h2 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.novosti p {
+    text-align: center;
+    font-family: 'Montserrat';
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.novosti h4 {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.novosti a{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
